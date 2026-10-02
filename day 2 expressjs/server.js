@@ -33,6 +33,108 @@
 //   }
 // });
 
+// server.listen(3000, () => {
+//     console.log("Server is running on port 3000");
+// });
+
+
+
+
+
+
+                               // Practice
+// let http = require("http");
+// let server = http.createServer((req, res) => {
+//   if (req.url === "/user") {
+//     res.end("hello i am user");
+//   }
+
+//   if (req.url === "/home") {
+//     req.end("hello i am home");
+//   }
+
+//   if (req.url === "/cart") {
+//     req.end("hello i am cart");
+//   }
+
+//   if (req.url === "/about") {
+//     res.end("hello i am about");
+//   }
+// });
+
+// server.listen(3000, () => {
+//     console.log("Server is running on port 3000");
+// });
+
+
+
+// let http = require("http");
+// let server = http.createServer((req, res) => {
+//   if (req.url === "/home") {
+//     res.end("hello i am home");
+//   }
+
+//   if (req.url === "/about") {
+//     res.end("hello i am about");
+//   }
+
+//   if (req.url === "/contact") {
+//     res.end("hello i am contact");
+//   }
+
+//   if (req.url === "/service") {
+//     res.end("hello i am service");
+//   }
+// });
+
+// server.listen(3000, () => {
+//     console.log("Server is running on port 3000");
+// });
+
+
+
+// let http = require("http");
+// let server = http.createServer((req, res) => {
+//   if (req.url === "/home") {
+//     res.end("hello i am home");
+//   }
+
+//   if (req.url === "about") {
+//     res.end("hello i am about");
+//   }
+
+//   if (req.url === "/service") {
+//     res.end("hello i am service");
+//   }
+// });
+
+// server.listen(3000, () => {
+//     console.log("Server is running on port 3000");
+// });
+
+
+
+// let http = require("http");
+// let server = http.createServer((req,res) => {
+//   if (req.url === "/home") {
+//     res.end("hello i am home")
+//   }
+
+//   if (req.url === "/about") {
+//     res.end("hello i am about");
+//   }
+
+//   if (req.url === "/service") {
+//     res.end("hello i am service")
+//   }
+// });
+
+// server.listen(3000, () => {
+//     console.log("Server is running on port 3000");
+// });
+
+
+
 
 
 
@@ -51,6 +153,81 @@ app.get('/', (req, res) => {
 app.listen(9000,() => {
     console.log("server is running on port 9000");
 }); 
+
+
+                                  //Practice
+// const express = require("express");
+// const app = express();
+
+// app.get('/', (req, res) = > {
+//   res.send("ok main samaj gya");
+// });
+
+// app.listen(9000, () => {
+//   console.log("server is running port 9000");
+// });
+
+
+
+
+
+// const express = require("express");
+// const app = express();
+
+// app.get('/', (req, res) => {
+//   res.send("okay i understand");
+// });
+
+// app.listen(9000, () => {
+//   console.log("server is running port 9000");
+// });
+
+
+
+
+// const express = require("express");
+// const app = express();
+
+// app.get('/', (req, res) => {
+//   res.send("okay i got it");
+// })
+
+// app.listen(9000, () => {
+//   console.log("server is running port 9000");
+// });
+
+
+
+
+
+// const express = require("express");
+// const app = express();
+
+// app.get('/', (req, res) => {
+//   res.send("okay got it");
+// });
+
+// app.listen(5000, () => {
+//   console.log("server is running port 5000");
+// });
+
+
+
+
+// const express = require("express");
+// const app = express();
+
+// app.get('/', (req, res) => {
+//   res.send("okay main samaj gya");
+// });
+
+// app.listen(5000, () => {
+//   console.log("surver is running port 5000");
+// });
+
+
+
+
 
 
 
@@ -80,20 +257,6 @@ REST API --> Representational State Transfer(kisi ko represent karna, kuch batan
   PUT/PATCH:--> Update existing data / update something
   DELETE:--> Remove data
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
